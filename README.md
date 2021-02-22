@@ -12,5 +12,7 @@ npx create-react-app . --template typescript
 ## Run code:
 ``` 
 npm i
+npm audit fix 
+npm audit fix --force
 npm start
 ```

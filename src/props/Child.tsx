@@ -14,7 +14,7 @@ export const Child = ({color, onClick}: ChildProps) => <div>
 </div>
 
 export const ChildAsFC: React.FC<ChildProps> = ({color, onClick, children}) => <div>
-    <h2>Child Functional Component (FC)</h2>
+    <h2>Child as Function Component (FC)</h2>
     <p>Color: {color}</p>
      {children}
     <button onClick={onClick}>

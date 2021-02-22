@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Parent from "./props/Parent";
 
-const App = () => <div><h1>Hi there!</h1></div>
+const App = () => <div>
+    <Parent/>
+</div>
 
 ReactDOM.render(<App/>, document.querySelector('#root'))
